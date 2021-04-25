@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f5b00a7d757ba4baf228277979e0d6, type: 3}
+  m_Name: Group 4
+  m_EditorClassIdentifier: 
+  texts:
+  - text: it's my boyfriend
+    waitTime: 1
+    typingTime: 2
+  - text: hmm..
+    waitTime: 3
+    typingTime: 1
+  - text: i don't know if I can say it to you
+    waitTime: 1
+    typingTime: 3
+  answers:
+  - text: You can tell me
+    nextGroup: {fileID: 11400000, guid: 2fa16cccb152dcd43a73d95d135fa9e5, type: 2}
+  - text: We talk later
+    nextGroup: {fileID: 11400000, guid: 8f2119ea6b258134a87cf68da025c6d1, type: 2}

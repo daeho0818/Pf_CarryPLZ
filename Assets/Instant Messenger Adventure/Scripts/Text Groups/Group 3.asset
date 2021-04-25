@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f5b00a7d757ba4baf228277979e0d6, type: 3}
+  m_Name: Group 3
+  m_EditorClassIdentifier: 
+  texts:
+  - text: Can you talk?
+    waitTime: 1
+    typingTime: 2
+  - text: i think you are busy
+    waitTime: 4
+    typingTime: 2
+  answers:
+  - text: You can count on me
+    nextGroup: {fileID: 11400000, guid: 26541e8a619ecb64da91a280c68b4bed, type: 2}
+  - text: Whats happening?
+    nextGroup: {fileID: 11400000, guid: 26541e8a619ecb64da91a280c68b4bed, type: 2}

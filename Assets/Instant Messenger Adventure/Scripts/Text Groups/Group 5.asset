@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f5b00a7d757ba4baf228277979e0d6, type: 3}
+  m_Name: Group 5
+  m_EditorClassIdentifier: 
+  texts:
+  - text: Ok
+    waitTime: 1
+    typingTime: 1
+  - text: I'll leave you alone
+    waitTime: 0.5
+    typingTime: 2.5
+  answers: []
